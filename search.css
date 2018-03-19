@@ -1,0 +1,10 @@
+boo{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+boo.boo-search{
+	display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
