@@ -13,46 +13,57 @@
 			background-repeat: no-repeat;
 		}
 	
-		a{
-			color: gray;
-			text-decoration: none;
-		}
-		
-		a:hover{
-             color:red;
-		}
-	
 		.search-box{
 			margin-top: 15px;
 			float: right;
 			margin-right: 100px;
 		}
 		
-		input[type=text]{
+		.search-box input[type=text]{
 			padding: 7px;
 			border: ridge;
 			font-size: 16px;
 			font-family: sans-serif;
 		}
 		
-		button{
+		.search-box button{
 			float: right;
 			background: pink;
 			color: white;
 			border-radius: 0 5px 5px 0;
 			cursor: pointer;
 			position: relative;
-			padding: 7px;
 			font-family: sans-serif;
 			border: none;
 			font-size: 16px;
+			padding: 10px;
+		}
+		
+
+		.gioithieu{
+			background-color: #a4a4a4;
+			color: white;
+		}
+		
+		.diachi{
+			background-color: #7f7f7f;
+			color: white;
 		}
 		
 		.Tra-cuu{
-
-			margin-right: 100px: 
-			margin-top:7px ;
+			float: left;
 		}
+
+		.Tra-cuu input{
+			height: 30px;
+			width: 400px;
+			margin-left: 450px;
+		}
+
+		.Tra-cuu button{
+			background-color: pink;
+		}
+
 
 	</style>
 	<!-- Latest compiled and minified CSS -->
@@ -82,17 +93,17 @@
 	<div class="container-fluid">
 	    <div class="row">
 	    	<div class="col-md-6">
-	    		<a href="Bosua.vn" target="_self" >HÀNG MỚI VỀ</a>&nbsp&nbsp&nbsp&nbsp
-	            <a href="Bosua.vn" target="_self" >NAM</a>&nbsp&nbsp&nbsp&nbsp
-	    		<a href="Bosua.vn" target="_self" >NỮ</a>&nbsp&nbsp&nbsp&nbsp
-	    		<a href="Bosua.vn" target="_self" >PHỤ KIỆN</a>&nbsp&nbsp&nbsp&nbsp
-	    		<a href="Bosua.vn" target="_self" >SALE</a>
+	    		<a href="Bosua.vn" target="_self">HÀNG MỚI VỀ</a>&nbsp&nbsp&nbsp&nbsp
+	            <a href="Bosua.vn" target="_self">NAM</a>&nbsp&nbsp&nbsp&nbsp
+	    		<a href="Bosua.vn" target="_self">NỮ</a>&nbsp&nbsp&nbsp&nbsp
+	    		<a href="Bosua.vn" target="_self">PHỤ KIỆN</a>&nbsp&nbsp&nbsp&nbsp
+	    		<a href="Bosua.vn" target="_self">SALE</a>
 			</div>
 
 			<div class="col-md-6">
-				<a href="Bosua.vn" target="_self" >TRA CỨU ĐƠN HÀNG</a>&nbsp&nbsp&nbsp&nbsp 
-	    		<a href="Bosua.vn" target="_self" >ĐĂNG KÍ NHẬN TIN</a>&nbsp&nbsp&nbsp&nbsp 
-	    		<a href="Bosua.vn" target="_self" >GIỎ HÀNG</a>
+				<a href="Bosua.vn" target="_self">TRA CỨU ĐƠN HÀNG</a>&nbsp&nbsp&nbsp&nbsp 
+	    		<a href="Bosua.vn" target="_self">ĐĂNG KÍ NHẬN TIN</a>&nbsp&nbsp&nbsp&nbsp 
+	    		<a href="Bosua.vn" target="_self">GIỎ HÀNG</a>
 			</div>
 	    </div>	
 	</div>
@@ -111,8 +122,13 @@
 		</div>
 	</div>
 
-    
-    <div class="container-fluid">
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <div class="gioithieu">
+    	<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
 				<br>
@@ -125,6 +141,8 @@
 					<a href="Bosua.vn" target="_self" >Sản phầm yêu thích</a>
 					<br>
 					<a href="Bosua.vn" target="_self" >Lịch sử xem hàng</a>
+					<br>
+					<br>
 					<br>
 					<img src="http://bosua.vn/cdn/website/template/54/contentKey/2462/cn.png">
 				</div>
@@ -176,24 +194,26 @@
 				</div>
 			</div>
 		</div>
+		<br>
+	</div>
 
-
-
-	<div class="container-fluid">
-		<div class="row">
-			<div clas="col-md-12">
-				<p>CÔNG TY CỔ PHẦN THƯƠNG MẠI BOO
-				<br>
-                TRỤ SỞ CHÍNH: Số 19A Đặng Trần Côn, phường Quốc Tử Giám, quận Đống Đa, thành phố Hà Nội, Việt Nam.
-                <br>
-                VĂN PHÒNG LÀM VIỆC: Tầng 9, tòa nhà Kim Khí Thăng Long, số 1 Lương Yên, phường Bạch Đằng, quận Hai Bà Trưng, thành phố Hà Nội, Việt Nam. Điện thoại: (+84) 024 3978 5428 | E-mail: care@boo.vn
-                <br>
-                Mã số thuế: 0103469019 do Sở kế hoạch và Đầu tư TP. Hà Nội cấp lần đầu ngày 02/03/2009, đăng ký thay đổi lần thứ 12 ngày 11/11/2015.
-                </p>
+	
+	<div class="diachi">
+		<div class="container-fluid">
+			<div class="row">
+				<div clas="col-md-12">
+					<p>CÔNG TY CỔ PHẦN THƯƠNG MẠI BOO
+					<br>
+                	TRỤ SỞ CHÍNH: Số 19A Đặng Trần Côn, phường Quốc Tử Giám, quận Đống Đa, thành phố Hà Nội, Việt Nam.
+                	<br>
+                	VĂN PHÒNG LÀM VIỆC: Tầng 9, tòa nhà Kim Khí Thăng Long, số 1 Lương Yên, phường Bạch Đằng, quận Hai Bà Trưng, thành phố Hà Nội, Việt Nam. Điện thoại: (+84) 024 3978 5428 | E-mail: care@boo.vn
+                	<br>
+                	Mã số thuế: 0103469019 do Sở kế hoạch và Đầu tư TP. Hà Nội cấp lần đầu ngày 02/03/2009, đăng ký thay đổi lần thứ 12 ngày 11/11/2015.
+                	</p>
+				</div>
 			</div>
 		</div>
 	</div>
-
 
 </body>
 </html>
